@@ -12,10 +12,10 @@
 		A81190CD1C23A6F700638111 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A81190CB1C23A6F700638111 /* LaunchScreen.storyboard */; };
 		A81190D81C23A6F700638111 /* SplitViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81190D71C23A6F700638111 /* SplitViewControllerTests.swift */; };
 		A81190E31C23A6F700638111 /* SplitViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81190E21C23A6F700638111 /* SplitViewControllerUITests.swift */; };
-		A81190F21C23A7DA00638111 /* ViewControllerMaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81190F01C23A7DA00638111 /* ViewControllerMaster.swift */; settings = {ASSET_TAGS = (); }; };
-		A81190F31C23A7DA00638111 /* ViewControllerMaster.xib in Resources */ = {isa = PBXBuildFile; fileRef = A81190F11C23A7DA00638111 /* ViewControllerMaster.xib */; settings = {ASSET_TAGS = (); }; };
-		A81190F61C23A7EF00638111 /* ViewControllerDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81190F41C23A7EF00638111 /* ViewControllerDetail.swift */; settings = {ASSET_TAGS = (); }; };
-		A81190F71C23A7EF00638111 /* ViewControllerDetail.xib in Resources */ = {isa = PBXBuildFile; fileRef = A81190F51C23A7EF00638111 /* ViewControllerDetail.xib */; settings = {ASSET_TAGS = (); }; };
+		A81190F21C23A7DA00638111 /* ViewControllerMaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81190F01C23A7DA00638111 /* ViewControllerMaster.swift */; };
+		A81190F31C23A7DA00638111 /* ViewControllerMaster.xib in Resources */ = {isa = PBXBuildFile; fileRef = A81190F11C23A7DA00638111 /* ViewControllerMaster.xib */; };
+		A81190F61C23A7EF00638111 /* ViewControllerDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81190F41C23A7EF00638111 /* ViewControllerDetail.swift */; };
+		A81190F71C23A7EF00638111 /* ViewControllerDetail.xib in Resources */ = {isa = PBXBuildFile; fileRef = A81190F51C23A7EF00638111 /* ViewControllerDetail.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,10 +47,10 @@
 		A81190DE1C23A6F700638111 /* SplitViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SplitViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A81190E21C23A6F700638111 /* SplitViewControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitViewControllerUITests.swift; sourceTree = "<group>"; };
 		A81190E41C23A6F700638111 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A81190F01C23A7DA00638111 /* ViewControllerMaster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerMaster.swift; sourceTree = "<group>"; };
-		A81190F11C23A7DA00638111 /* ViewControllerMaster.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewControllerMaster.xib; sourceTree = "<group>"; };
-		A81190F41C23A7EF00638111 /* ViewControllerDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerDetail.swift; sourceTree = "<group>"; };
-		A81190F51C23A7EF00638111 /* ViewControllerDetail.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewControllerDetail.xib; sourceTree = "<group>"; };
+		A81190F01C23A7DA00638111 /* ViewControllerMaster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewControllerMaster.swift; path = ViewController/ViewControllerMaster.swift; sourceTree = "<group>"; };
+		A81190F11C23A7DA00638111 /* ViewControllerMaster.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ViewControllerMaster.xib; path = ViewController/ViewControllerMaster.xib; sourceTree = "<group>"; };
+		A81190F41C23A7EF00638111 /* ViewControllerDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewControllerDetail.swift; path = ViewController/ViewControllerDetail.swift; sourceTree = "<group>"; };
+		A81190F51C23A7EF00638111 /* ViewControllerDetail.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ViewControllerDetail.xib; path = ViewController/ViewControllerDetail.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +78,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		397522B21C2841BE00D43FB1 /* VIewController */ = {
+			isa = PBXGroup;
+			children = (
+				A81190F01C23A7DA00638111 /* ViewControllerMaster.swift */,
+				A81190F11C23A7DA00638111 /* ViewControllerMaster.xib */,
+				A81190F41C23A7EF00638111 /* ViewControllerDetail.swift */,
+				A81190F51C23A7EF00638111 /* ViewControllerDetail.xib */,
+			);
+			name = VIewController;
+			sourceTree = "<group>";
+		};
 		A81190B61C23A6F700638111 = {
 			isa = PBXGroup;
 			children = (
@@ -101,14 +112,11 @@
 		A81190C11C23A6F700638111 /* SplitViewController */ = {
 			isa = PBXGroup;
 			children = (
+				397522B21C2841BE00D43FB1 /* VIewController */,
 				A81190C21C23A6F700638111 /* AppDelegate.swift */,
 				A81190C91C23A6F700638111 /* Assets.xcassets */,
 				A81190CB1C23A6F700638111 /* LaunchScreen.storyboard */,
 				A81190CE1C23A6F700638111 /* Info.plist */,
-				A81190F01C23A7DA00638111 /* ViewControllerMaster.swift */,
-				A81190F11C23A7DA00638111 /* ViewControllerMaster.xib */,
-				A81190F41C23A7EF00638111 /* ViewControllerDetail.swift */,
-				A81190F51C23A7EF00638111 /* ViewControllerDetail.xib */,
 			);
 			path = SplitViewController;
 			sourceTree = "<group>";
@@ -485,6 +493,7 @@
 				A81190E91C23A6F700638111 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A81190EA1C23A6F700638111 /* Build configuration list for PBXNativeTarget "SplitViewControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +502,7 @@
 				A81190EC1C23A6F700638111 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A81190ED1C23A6F700638111 /* Build configuration list for PBXNativeTarget "SplitViewControllerUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +511,7 @@
 				A81190EF1C23A6F700638111 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
