@@ -21,9 +21,6 @@ class ViewControllerMaster: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        let barButtonItem = UIBarButtonItem.init(title: "Meo meo ", style: UIBarButtonItemStyle.Done, target: nil, action: nil)
-        self.navigationItem.leftBarButtonItem = barButtonItem
         // Do any additional setup after loading the view.
     }
 
@@ -33,10 +30,7 @@ class ViewControllerMaster: UIViewController {
     }
     
     @IBAction func buttonClick(sender: AnyObject) {
-
-        splitViewController?.preferredDisplayMode = UISplitViewControllerDisplayMode.AllVisible
-                splitViewController?.preferredDisplayMode = UISplitViewControllerDisplayMode.PrimaryOverlay
-        splitViewController?.displayModeButtonItem().action
+//        splitViewController?.displayModeButtonItem().action
         if let detailViewController = self.delegate as? ViewControllerDetail {
             self.delegate?.send("This message send from master view")
             splitViewController?.showDetailViewController(detailViewController.navigationController!, sender: nil)
